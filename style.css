@@ -1,10 +1,10 @@
 body {
-    background-color: #1a0333; /* Fondo oscuro */
-    color: #00ffff; /* Color de texto principal (cian neón) */
-    font-family: 'Courier New', Courier, monospace; /* Fuente retro */
+    background-color: #1a0333;
+    color: #00ffff;
+    font-family: 'Courier New', Courier, monospace;
     line-height: 1.6;
     margin: 0;
-    padding: 20px;
+    padding: 40px 20px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -12,32 +12,40 @@ body {
 }
 
 .container {
-    background-color: #330666; /* Un color un poco más claro para el contenedor */
-    padding: 30px;
-    border-radius: 10px;
-    max-width: 800px;
+    background-color: #2a0055;
+    padding: 40px 30px;
+    border-radius: 12px;
+    max-width: 850px;
     width: 100%;
-    box-shadow: 0 0 20px rgba(0, 255, 255, 0.6); /* Sombra de neón cian */
-    border: 2px solid #00ffff; /* Borde de neón */
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.5);
+    border: 2px solid #00ffff;
 }
 
 h1, h2 {
-    color: #ff00ff; /* Color de encabezado (magenta neón) */
-    text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff; /* Efecto de brillo neón */
-    margin-bottom: 15px;
-}
-
-p {
+    color: #ff00ff;
+    text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff;
     margin-bottom: 20px;
 }
 
+p {
+    margin-bottom: 18px;
+    font-size: 0.95rem;
+}
+
 a {
-    color: #00ff00; /* Color de enlace (verde neón) */
+    color: #00ff00;
     text-decoration: none;
-    text-shadow: 0 0 5px #00ff00; /* Efecto de brillo neón */
+    text-shadow: 0 0 5px #00ff00;
 }
 
 a:hover {
     text-decoration: underline;
     text-shadow: 0 0 10px #00ff00;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 0.75rem;
+    color: #888;
+    text-align: center;
 }
