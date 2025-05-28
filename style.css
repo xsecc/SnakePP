@@ -1,0 +1,43 @@
+body {
+    background-color: #1a0333; /* Fondo oscuro */
+    color: #00ffff; /* Color de texto principal (cian neón) */
+    font-family: 'Courier New', Courier, monospace; /* Fuente retro */
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #330666; /* Un color un poco más claro para el contenedor */
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 800px;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.6); /* Sombra de neón cian */
+    border: 2px solid #00ffff; /* Borde de neón */
+}
+
+h1, h2 {
+    color: #ff00ff; /* Color de encabezado (magenta neón) */
+    text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff; /* Efecto de brillo neón */
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+a {
+    color: #00ff00; /* Color de enlace (verde neón) */
+    text-decoration: none;
+    text-shadow: 0 0 5px #00ff00; /* Efecto de brillo neón */
+}
+
+a:hover {
+    text-decoration: underline;
+    text-shadow: 0 0 10px #00ff00;
+}
